@@ -18,7 +18,7 @@ The query solves several difficulties one by one:
 - Grouping by cameras [jcam] and days [jdate_start] is created;
 - Dynamic subqueries are created for the query: two lists with a unique list of days and cameras;
 - From this, the Cartesian product of the columns [jSizeGb] and [jdate_start] is created (PIVOT pivot table);
-- Lists eliminate many Null values and format data to string;
+- Lists eliminate many Null values and format data to string.
 
 ![](/Jpg/T-SQL_05.png)
 
